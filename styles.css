@@ -20,6 +20,20 @@ body {
     color: white;
 }
 
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+
+}
+
 ul {
     padding: 0;
     list-style: none;
@@ -33,13 +47,6 @@ a {
     color: #F9FAF8;
 }
 
-.navBar {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-
-}
-
 .navBar .headerLogo {
     font-size: 24px;
     color: #F9FAF8;
@@ -49,14 +56,14 @@ a {
 .hero {
     display: flex;
     justify-content: space-around;
-    margin-top: 40px;
-    margin-bottom: 80px;
-    margin-left: 20px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    width: 100%;
 }
 
 .presentationText {
+    padding-left: 110px;
     width: 400px;
-    margin-left: 90px;
 }
 
 .presentationText button {
@@ -75,7 +82,6 @@ img {
     margin-top: 20px;
     margin-right: 60px;
 }
-
 
 .features h2 {
     font-size: 36px;
@@ -112,10 +118,9 @@ img {
 }
 
 
-
 .features .container .card p {
     font-size: 14px;
-    color: #838383;
+    color: #585858;
     text-align: center;
 
 }
@@ -124,6 +129,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: start;
+    flex-wrap: wrap;
     gap: 50px;
     margin-top: 50px;
 }
@@ -137,8 +143,7 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #E5E7EB;
-    font-size: 36px;
-    
+    font-size: 36px;    
     color: #1F2937;
     padding: 60px;
     align-items: center;
@@ -158,8 +163,6 @@ img {
     margin-top: 0;
 
 }
-
-
 
 .callToAction {
     display: flex;
@@ -199,10 +202,6 @@ img {
     height: 50px;
     border-radius: 10px;
     cursor: pointer;
-}
-
-.callToAction .container button  {
-    
 }
 
 .footer {
